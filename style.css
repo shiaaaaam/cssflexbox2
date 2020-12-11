@@ -9,12 +9,12 @@
 .container {
     width: 1000px;
     margin: auto;
-    
 }
 
 /* Navigation Bar */
 
 .navbar {
+    border: 1px solid gray;
     display: flex;
     height: 40px;
     margin-top: 10px;
@@ -36,12 +36,65 @@
 .menuitem p {
     padding-left: 10px;
     padding-right: 10px;
-    
 }
 
 .menuitem p:hover{
     font-size: 20px;
     transition: 250ms;
     font-weight: bold;
-    text-decoration: none;
+}
+
+
+.main {
+    display: flex;
+
+}
+
+.side-menu{
+    flex-direction: column;
+    width: 200px;
+    order: 1;
+}
+
+.side-menu-item{
+    border: 1px solid gray;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+}
+
+.main-col {
+    order: 2;
+    margin-top: 10px;
+    margin-left: 20px;
+
+
+}
+
+.large {
+    border: 1px solid gray;
+    height: 160px;
+    width: 760px;
+    padding: 10px;
+    
+}
+
+.card {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+
+}
+
+.card-item{
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    height: 155px;
+    width: 250px;
+
 }
